@@ -1,0 +1,26 @@
+{
+	"name": "HyperTabs",
+	"description": "TitaniumNetwork is an organization dedicated to providing free access to information by bypassin the over-restrictive filters employed by institutions like schools and workplaces.",
+	"start_url": "index.html",
+	"display": "standalone",
+	"display_override": ["window-controls-overlay", "standalone"],
+	"icons": [{
+		"src":"favicon.ico",
+		"sizes":"192x192",
+		"type":"image/ico"
+	}, {
+		"src":"favicon.ico",
+		"sizes":"512x512",
+		"type":"image/ico"
+	}, {
+		"purpose":"maskable",
+		"src":"favicon.ico",
+		"sizes":"192x192",
+		"type":"image/ico"
+	}, {
+		"purpose":"maskable",
+		"src":"",
+		"sizes":"512x512",
+		"type":"image/ico"
+	}]
+}
