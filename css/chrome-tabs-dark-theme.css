@@ -1,6 +1,16 @@
 .chrome-tabs.chrome-tabs-dark-theme {
   background: #202124;
+	-webkit-app-region: drag;
 }
+
+button {
+	-webkit-app-region: no-drag;
+}
+
+.chrome-tab {
+	-webkit-app-region: no-drag;
+}
+
 .chrome-tabs.chrome-tabs-dark-theme .chrome-tab .chrome-tab-dividers::before,
 .chrome-tabs.chrome-tabs-dark-theme .chrome-tab .chrome-tab-dividers::after {
   background: #4a4d51;
